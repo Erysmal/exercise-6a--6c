@@ -1,0 +1,81 @@
+   p {
+        display: inline-block;
+        text-decoration:underline;
+        color:purple;
+        padding:4px;
+      }
+      .next-button {
+        padding:5px 5px 5px 5px;
+      }
+      .stretch-button{
+        padding:7px 16px 7px 16px;
+        font-weight:500;
+        background-color: green;
+        color:white;
+        font-size:17px;
+        border-style:none;
+        transition:opacity 0.15s, padding 0.15s,;
+      }
+      .stretch-button:active {
+        padding:15px 30px 15px 30px;
+      }
+      .shadow-button {
+        padding:7px 16px 7px 16px;
+        font-weight:500;
+        background-color: green;
+        color:white;
+        font-size:17px;
+        border-style:none;
+        transition: box-shadow 0.15s,opacity 0.15s;
+      }
+      .shadow-button:active {
+        box-shadow:5px 5px 10px rgba(0,0,0,0.2);
+      }
+      .one-button {
+        padding:7px 16px 7px 16px;
+        font-weight: 500;
+        font-size: 17px;
+        background-color: green;
+        border-style:none;
+        color: white;
+        transition: opacity 0.15s,padding-left 0.15s, padding-right 0.15s;
+      }
+      .one-button:hover {
+        opacity: 0.8;
+      }
+      .one-button:active {
+        padding-left:19px;
+        padding-right:19px;
+      }
+      .two-button {
+        padding:7px 16px 7px 16px;
+        font-weight: 500;
+        font-size: 17px;
+        background-color: green;
+        border-style:none;
+        color: white;
+        transition: opacity 0.15s, padding-left 0.15s padding-right 0.15s;
+      }
+      .two-button:hover{
+        opacity:0.8;
+      }
+      .two-button:active {
+        padding-left: 19px;
+        padding-right:19px;
+      }
+      .three-button {
+        padding:7px 16px 7px 16px;
+        font-weight: 500;
+        font-size: 17px;
+        background-color: green;
+        border-style:none;
+        color: white;
+       transition: opacity 0.15s, padding-left 0.15s
+      }
+      .three-button:hover{
+        opacity: 0.8;
+      }
+      .three-button:active {
+        padding-left: 19px;
+        padding-right:19px;
+      }
